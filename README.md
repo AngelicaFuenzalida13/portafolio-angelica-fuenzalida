@@ -1,5 +1,7 @@
 # Portafolio — Angélica Fuenzalida
 
+🌐 Sitio público: https://angelicafuenzalida13.github.io/portafolio-angelica-fuenzalida/
+
 Portafolio personal de proyectos técnicos y creativos, construido con HTML, CSS y JavaScript sin dependencias.
 
 ## Publicación con GitHub Pages
