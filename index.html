@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio de Angélica Fuenzalida: informática, análisis de sistemas y creación." />
+    <meta name="theme-color" content="#f4f6fb" />
+    <title>Angélica Fuenzalida — Informática, análisis & creación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">AF</span>
+        <span class="brand-name">Angélica Fuenzalida</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#perfil">Perfil</a>
+        <a class="nav-cta" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow reveal reveal-one"><span class="status-dot"></span>Ingeniería informática · Santiago, Chile</p>
+          <h1 class="reveal reveal-two">Analizo sistemas.<br />Diseño <span>experiencias.</span><br />Escribo mundos.</h1>
+          <p class="hero-intro reveal reveal-three">Soy Angélica Fuenzalida, ingeniera en informática en formación con experiencia en laboratorio clínico. Combino pensamiento analítico, criterio humano y una mirada creativa para construir soluciones claras.</p>
+          <div class="hero-actions reveal reveal-four">
+            <a class="primary-button" href="#proyectos">Explorar proyectos <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#perfil">Conocer mi perfil <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-three" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="visual-core"><span class="core-label">entre</span><strong>lógica</strong><span class="core-amp">&</span><strong>intuición</strong></div>
+          <span class="floating-note note-one">01 · datos</span><span class="floating-note note-two">02 · diseño</span><span class="floating-note note-three">03 · historias</span>
+        </div>
+        <div class="hero-index" aria-hidden="true"><span>PORTFOLIO / 26</span><span>SCROLL TO EXPLORE</span></div>
+      </section>
+
+      <section class="projects-section" id="proyectos">
+        <div class="section-heading">
+          <div><p class="section-number">01 / Selección</p><h2>Proyectos que conectan<br />ideas con resultados.</h2></div>
+          <p class="section-note">Una selección técnica y creativa. Filtra la vista y abre cada proyecto para conocer el enfoque.</p>
+        </div>
+        <div class="project-toolbar">
+          <div class="filter-group" role="group" aria-label="Filtrar proyectos">
+            <button class="active" type="button" data-filter="todos">Todos</button>
+            <button type="button" data-filter="tecnico">Técnicos</button>
+            <button type="button" data-filter="creativo">Creativos</button>
+          </div>
+          <span class="project-count" aria-live="polite">04 proyectos</span>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card accent-blue" data-category="tecnico">
+            <button class="project-summary" type="button" aria-expanded="false">
+              <span class="project-topline"><span class="project-number">01</span><span class="project-arrow" aria-hidden="true">↗</span></span>
+              <span class="project-eyebrow">Minería de datos · R</span><strong>Modelo de clasificación</strong>
+              <span class="project-description">Un flujo de análisis para preparar datos, entrenar un modelo y evaluar sus resultados con criterio.</span>
+              <span class="tag-list"><span>R</span><span>Análisis</span><span>Machine learning</span></span>
+            </button>
+            <div class="project-detail"><p>El proyecto recorre el proceso completo: exploración, limpieza, modelado, validación y lectura de la matriz de confusión. La documentación traduce los resultados técnicos a conclusiones comprensibles.</p><span>Detalles del caso próximamente</span></div>
+          </article>
+          <article class="project-card accent-ice" data-category="tecnico">
+            <button class="project-summary" type="button" aria-expanded="false">
+              <span class="project-topline"><span class="project-number">02</span><span class="project-arrow" aria-hidden="true">↗</span></span>
+              <span class="project-eyebrow">Análisis de sistemas · PDCA</span><strong>Conecta</strong>
+              <span class="project-description">Una propuesta de mejora que convierte un problema operativo en un proceso claro, medible y accionable.</span>
+              <span class="tag-list"><span>PDCA</span><span>Procesos</span><span>Documentación</span></span>
+            </button>
+            <div class="project-detail"><p>Diseñado con enfoque PDCA: identificación del problema, planificación de mejoras, seguimiento y ajustes. El foco está en ordenar la información y hacer visible cada decisión.</p><span>Detalles del caso próximamente</span></div>
+          </article>
+          <article class="project-card accent-berry" data-category="creativo">
+            <button class="project-summary" type="button" aria-expanded="false">
+              <span class="project-topline"><span class="project-number">03</span><span class="project-arrow" aria-hidden="true">↗</span></span>
+              <span class="project-eyebrow">Escritura · Ficción serial</span><strong>Universos narrativos</strong>
+              <span class="project-description">Personajes complejos, continuidad emocional y escenas donde la atmósfera también cuenta la historia.</span>
+              <span class="tag-list"><span>Narrativa</span><span>Personajes</span><span>Worldbuilding</span></span>
+            </button>
+            <div class="project-detail"><p>Un archivo creativo en expansión: construcción de vínculos, voces consistentes y relatos de tono romántico y oscuro. Preparado para incorporar fragmentos seleccionados y fichas de personajes.</p><span>Detalles del caso próximamente</span></div>
+          </article>
+          <article class="project-card accent-violet" data-category="creativo">
+            <button class="project-summary" type="button" aria-expanded="false">
+              <span class="project-topline"><span class="project-number">04</span><span class="project-arrow" aria-hidden="true">↗</span></span>
+              <span class="project-eyebrow">Dirección creativa · Color</span><strong>Archivo visual</strong>
+              <span class="project-description">Estudios de paleta, referencias y conceptos visuales convertidos en sistemas coherentes.</span>
+              <span class="tag-list"><span>Color</span><span>Moodboards</span><span>Concepto</span></span>
+            </button>
+            <div class="project-detail"><p>Una colección preparada para moodboards, exploraciones de color y dirección estética. Cada entrada podrá documentar la idea, las referencias y el resultado final.</p><span>Detalles del caso próximamente</span></div>
+          </article>
+        </div>
+        <div class="expand-note"><span>+</span><p>Esta colección está diseñada para crecer. Un nuevo proyecto se integra sin cambiar la estructura del sitio.</p></div>
+      </section>
+
+      <section class="profile-section" id="perfil">
+        <div class="profile-intro">
+          <p class="section-number">02 / Perfil</p><h2>Rigor para entender.<br />Sensibilidad para crear.</h2>
+          <p>Mi experiencia en salud me enseñó a trabajar con precisión, protocolos y personas reales. La informática me permite transformar esa observación en sistemas, interfaces y decisiones mejor estructuradas.</p>
+        </div>
+        <div class="profile-grid">
+          <article><span class="profile-icon">⌁</span><h3>Desarrollo</h3><p>HTML, CSS, JavaScript, Flutter e Ionic.</p></article>
+          <article><span class="profile-icon">⌘</span><h3>Datos & sistemas</h3><p>SQL, R, análisis de procesos y documentación.</p></article>
+          <article><span class="profile-icon">✦</span><h3>Mirada creativa</h3><p>Narrativa, dirección visual y construcción de conceptos.</p></article>
+        </div>
+        <div class="approach-row"><p>Cómo trabajo</p><ol><li><span>01</span>Observar antes de asumir.</li><li><span>02</span>Ordenar lo complejo.</li><li><span>03</span>Construir con intención.</li></ol></div>
+      </section>
+
+      <section class="contact-section" id="contacto">
+        <div><p class="section-number">03 / Contacto</p><h2>¿Construimos algo<br />con sentido?</h2></div>
+        <div class="contact-copy"><p>Disponible para oportunidades junior, proyectos digitales y colaboraciones donde el análisis y la creatividad se encuentren.</p><div class="contact-placeholder"><span>Próximo paso</span><p>Añadir correo, LinkedIn o GitHub antes de publicar.</p></div></div>
+      </section>
+    </main>
+    <footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark">AF</span><span class="brand-name">Angélica Fuenzalida</span></a><p>Informática, análisis & creación.</p><a class="back-to-top" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a></footer>
+  </body>
+</html>
